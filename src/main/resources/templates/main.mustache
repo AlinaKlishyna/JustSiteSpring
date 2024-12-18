@@ -10,6 +10,11 @@
     </div>
 
     <div>List messages</div>
+    <form method="post" action="filter">
+        <input type="text" name="filter">
+        <button type="submit">Found</button>
+    </form>
+
     {{#messages}}
         <div>
             <b>{{id}}</b>
